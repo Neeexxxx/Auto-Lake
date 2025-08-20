@@ -1,4 +1,4 @@
-# AWS Event-Driven ETL Pipeline  
+# Auto Lake - AWS Event-Driven ETL Pipeline  
 
 This project demonstrates a **fully automated, event-driven ETL (Extract, Transform, Load) pipeline** on Amazon Web Services (AWS). The pipeline processes **JSON transactional data**, transforms it into **Parquet format**, and makes it **queryable in near real-time** with Amazon Athena.  
 
@@ -32,6 +32,10 @@ For example, uploading a file with 23 orders directly reflected as 23 rows in At
 5. **Athena** queries data in near real-time  
 
 *(Architecture diagram suggestion: S3 → Lambda → S3 (Data Lake) → Glue → Athena)*  
+<centre>
+<img width="803" height="176" alt="Screenshot 2025-08-20 131757" src="https://github.com/user-attachments/assets/56fbf3d4-935f-49cc-bd01-81527d90f6d8" />
+</centre>
+
 
 ---
 
